@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "parcel": "^2.8.2"
+  },
+  "name": "stepform",
+  "description": "![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Petkov",
+  "license": "ISC"
+}

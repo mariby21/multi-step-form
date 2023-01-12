@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Multi-step form</title>
+  </head>
+  <body>
+    <!-- Sidebar start -->
+    <main class="wrapper">
+      <!-- STEPS CONTAINER -->
+      <div class="container-steps">
+        <div class="step">
+          <div class="circle active">1</div>
+          <div class="info">
+            <p>Step 1</p>
+            <h4>Your Info</h4>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle" data-id="1">2</div>
+          <div class="info">
+            <p>Step 2</p>
+            <h4>select plan</h4>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">3</div>
+          <div class="info">
+            <p>Step 3</p>
+            <h4>add-ons</h4>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">4</div>
+          <div class="info">
+            <p>Step 4</p>
+            <h4>summary</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- END STEPS CONTAINER -->
+
+      <!-- ROOT CANTAINER ALL UI -->
+
+      <div class="root">
+        <!-- START FORM -->
+        <!-- PAGE 1 -->
+        <div class="container-personal-info">
+          <!-- Step 1 Header -->
+          <div class="select-plan-header">
+            <h1>Personal info</h1>
+            <p>Please provide your name, email address, and phone number.</p>
+          </div>
+          <!-- End -->
+
+          <form action="#" method="GET">
+            <div class="form">
+              <label for="name" class="name">Name</label>
+              <input
+                class="first-last-name"
+                type="text"
+                name="name"
+                placeholder="e.g. Stephen King"
+                required
+              />
+            </div>
+            <div class="form">
+              <label for="email" class="email">Email Address</label>
+              <input
+                class="email-adress"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="e.g. stephenking@lorem.com"
+              />
+            </div>
+            <div class="form">
+              <label for="number" class="number">Phone Number</label>
+              <input
+                class="phone-number"
+                type="tel"
+                name="phone"
+                placeholder="e.g. +1 234 567 890"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="go-back">Go Back</button>
+        <button type="submit" class="next-step">Next Step</button>
+      </div>
+    </main>
+
+    <!-- ANIMATION -->
+    <aside>
+      <div class="animation">
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </aside>
+    <!-- END ANIMATION -->
+
+    <!-- <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer> -->
+
+    <script src="/app.js"></script>
+  </body>
+</html>
